@@ -31,7 +31,7 @@ class Splash {
     async startAnimation() {
         let splashes = [
             { "message": "Je... vie...", "author": "Smokss" },
-            { "message": "Bienvenue sur la Taverne.", "author": "Luuxis" },
+            { "message": "Bienvenue sur la Taverne.", "author": "Smokss" },
             { "message": "Le serveur le plus fun.", "author": "Smokss" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
