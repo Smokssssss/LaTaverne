@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.7",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "La Taverne-Launcher",
+    "preductname": "La Taverne Launcher",
+    "version": "1.0.0",
+    "description": "Launcher Mincraft pour le serveur La Taverne",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "luuxis, Smokss, Inc.",
+        "email": "contact@latavernemc.fr",
+        "url": "https://github.com/Smokssssss"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "https://latavernemc.online",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://cdn.icon-icons.com/icons2/3768/PNG/512/minecraft_icon_231597.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Smokssssss/LaTaverne.git"
     }
 }
