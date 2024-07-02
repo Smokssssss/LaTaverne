@@ -1,7 +1,7 @@
 {
     "name": "tavernelauncher",
     "preductname": "La Taverne Launcher",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Launcher Mincraft pour le serveur La Taverne",
     "main": "src/app.js",
     "author": {
@@ -14,7 +14,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://cdn.icon-icons.com/icons2/3768/PNG/512/minecraft_icon_231597.png"
+        "icon": "node build.js --icon=http://www.image-heberg.fr/files/171991810658935487.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
